@@ -1,0 +1,16 @@
+{
+  "model": "fixture-only-no-model-inference",
+  "answers": {
+    "condition": {
+      "type": "choice", "choice": "intact", "confidence": 0.93,
+      "probabilities": {"intact": 0.95, "damaged": 0.03, "unclear": 0.02}
+    },
+    "severity": {
+      "type": "score", "score": 0.08, "confidence": 0.91,
+      "legend": {"0": "No visible damage", "1": "Minor damage", "2": "Major damage"},
+      "probabilities": {"0": 0.94, "1": 0.04, "2": 0.02}
+    },
+    "needs_review": {"type": "noul", "noul": 0.04}
+  },
+  "usage": {"input_tokens": 0, "output_tokens": 0}
+}
